@@ -66,3 +66,9 @@ class AGCRN(nn.Module):
                        self.num_node).transpose(2, 3)
 
         return out
+
+    # Initialize the model parameters using Xavier uniform initialization
+    def init_parameters(self):
+        for _, param in self.named_parameters():
+            if len(param.shape) != 1:
+                nn.init.xavier_uniform_(param)
