@@ -1,0 +1,30 @@
+[
+    {
+        "seed": 4,
+        "dataset": "PEMS04",
+        "dataset_path": "data/PEMS04/pems04.npz",
+        "num_node": 307,
+        "embed_dim": 10,
+        "val_ratio": 0.2,
+        "test_ratio": 0.2,
+        "horizon": 12,
+        "hidden_dim": 64,
+        "num_layers": 2,
+        "k": 2,
+        "batch_size": 64
+    },
+    {
+        "seed": 4,
+        "dataset": "PEMS08",
+        "dataset_path": "data/PEMS08/pems08.npz",
+        "num_node": 170,
+        "embed_dim": 2,
+        "val_ratio": 0.2,
+        "test_ratio": 0.2,
+        "horizon": 12,
+        "hidden_dim": 64,
+        "num_layers": 2,
+        "k": 2,
+        "batch_size": 64
+    }
+]
