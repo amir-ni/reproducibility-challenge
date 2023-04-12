@@ -1,6 +1,7 @@
 logs/
 pretrained-model/
 data/
+plots/
 
 # OS
 .DS_Store
